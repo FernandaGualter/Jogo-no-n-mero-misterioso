@@ -44,7 +44,7 @@ while (palpite != numeroMisterioso) {
             alert(`O número misterioso está entre ${palpite} e 100`);
         }
         tentativa++;
-        if (tentativa % x == 10) {
+        if (tentativa % x == 0) {
             numeroMisterioso = Math.floor(Math.random() * 100) + 1;
             alert("O número misterioso mudou!");
         }
